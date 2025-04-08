@@ -4,7 +4,7 @@ class ReviewItem:
         self.rating = rating
     
     def __str__(self):
-        return f"Rating: {self.rating} stars - {self.text}"
+        return f"Оценка: {self.rating} звездички - {self.text}"
 
 
 class HighRatingReviewIterator:
